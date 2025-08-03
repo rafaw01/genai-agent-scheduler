@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_Watson_logo.png" alt="Logo" width="100" height="100">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="100" height="100">
 </p>
 
 <h1 align="center">🤖 GenAI Project – Agent AI Interview Scheduler</h1>
