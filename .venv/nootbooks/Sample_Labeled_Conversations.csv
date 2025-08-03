@@ -1,0 +1,8 @@
+conversation_id,turn_index,user_input,true_action
+1,1,exit,End the conversation
+2,1,schedule an interview for next week,Schedule an interview
+3,1,what are my responsibilities,Continue the conversation
+4,1,hi,Continue the conversation
+5,1,bye,End the conversation
+5,2,book an interview,Schedule an interview
+5,3,thanks,Continue the conversation
