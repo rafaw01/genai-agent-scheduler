@@ -152,10 +152,10 @@ Distributed under the XXX License. See LICENSE for more information.
 
 ## 📄 Contact
 
-Omer Leon - omerleon87@gmail.com
-Or Eliezer - or1234eli@gmail.com
-Rafael Wajnsztajn - rafaw01@gmail.com
-Project Link: https://github.com/rafaw01/genai-agent-scheduler
+-Omer Leon - omerleon87@gmail.com
+-Or Eliezer - or1234eli@gmail.com
+-Rafael Wajnsztajn - rafaw01@gmail.com
+-Project Link: https://github.com/rafaw01/genai-agent-scheduler
 
 ## 📄 Acknowledgements
 - Python
