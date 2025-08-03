@@ -3,7 +3,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo" width="100" height="100">
 </p>
 
-<h1 align="center">🤖 GenAI Project – Agent AI Interview Scheduler</h1>
+<h1 align="center"> GenAI Project – Agent AI Interview Scheduler</h1>
 <p align="center">
   SMS-based AI chatbot for candidate interaction and interview scheduling  
   <br/>
