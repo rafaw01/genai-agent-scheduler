@@ -32,7 +32,7 @@
 
 
 ## 📌 About the Project
-The GenAI Project is an SMS-based chatbot designed to interact with job candidates applying for a Python Developer position. It autonomously conducts conversations, collects and validates information, answers questions, and schedules interviews with human recruiters — or politely ends the conversation when appropriate.
+The GenAI Project is an SMS-based chatbot designed to interact with job candidates applying for a  position in Hi-Tech Market. It autonomously conducts conversations, collects and validates information, answers questions, and schedules interviews with human recruiters — or politely ends the conversation when appropriate.
 
 This project leverages specialized agents, dynamic decision-making, and a knowledge base (vector DB + SQL) to deliver a smooth and intelligent pre-interview experience.
 
@@ -83,11 +83,6 @@ pip install -r requirements.txt
 ---
 
 
-## 📡 Usage:
-```
-python main.py
-```
-
 ## 💻 Launch Agent AI
 
 [Launch Agent AI](https://ganaifin.streamlit.app/)
@@ -95,13 +90,22 @@ python main.py
 
 ## 🐍 Code Examples
 ```python
-import pandas as pd
-from openai import OpenAI
+i# Suppress prints during import of sub-agents
+_silent_buf = io.StringIO()
+with contextlib.redirect_stdout(_silent_buf):
+    from exit_advisor import ExitAdvisor
+    from info_advisor import InfoAdvisor
+from scheduling_advisor import SchedulingAdvisor, df as schedule_df
 
-client = OpenAI(api_key="your_api_key_here")  # Replace with your actual API key or use environment variable
-
-# Load data
-df = pd.read_csv('data/dataset.csv')
+# Keywords for routing
+EXIT_KEYWORDS = {"exit", "quit", "bye"}
+SCHED_KEYWORDS = {"schedule", "appointment", "interview", "meeting", "book", "booking", "set a meeting"}
+INFO_KEYWORDS = {
+    "who", "what", "how", "when", "where", "why", "which",
+    "explain", "detail", "clarify", "clarification",
+    "responsibility", "responsibilities"
+}
+GREETINGS = {"hi", "hello", "hey", "shalom", "שלום"}
 ```
 
 
@@ -115,15 +119,15 @@ cd genai-agent-scheduler
 
 ### 2. Run the application:
 ```
-python main.py
+python Main_5.py
 ```
 
 ## 🛠️ Project Structure
 
 ```plaintext
-genai-agent-scheduler/
-│── agents/
-│── db/
+GANAI_FINEL_PRO-MASTER/
+│── .venv/
+    |------
 │── vectorstore/
 │── sms/
 │── main.py
