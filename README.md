@@ -125,7 +125,7 @@ python Main_5.py
 ## 🛠️ Project Structure
 
 ```plaintext
-GANAI_FINEL_PRO-MAASTER/
+GANAI_FINEL_PRO-MASTER/
 ├── .idea
 │   ├── .gitignore
 │   ├── .name
@@ -208,15 +208,7 @@ GANAI_FINEL_PRO-MAASTER/
 └── sms_conversations.json
 ```
 
-```
-## 🛠️ To-Do List
 
-- [x] Initial project setup  
-- [x] Add python_project module  
-- [x] Improve documentation  
-- [x] Add web interface  
-
-```
 
 ## 🤝 Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
