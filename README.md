@@ -209,14 +209,9 @@ GANAI_FINEL_PRO-MASTER/
 ```
 
 
-
-## 🤝 Contributing
-Contributions are welcome! Fork the repository and submit a pull request.
-
-
 ## 📄 License
 
-Distributed under the XXX License. See LICENSE for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📄 Contact
 
@@ -229,9 +224,11 @@ Distributed under the XXX License. See LICENSE for more information.
 - Python
 - Pandas
 - SQL 
+- SQLACHEMY
 - Fine-Tuning
 - Embedding
 - Agent Architecture (OpenAI API & LangChain)
+- ML MODEL (RANDOM FOREST)
 - Streamlit
 - Prompting Strategies
 - Evaluation & Testing 
