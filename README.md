@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 ## 🐍 Code Examples
 ```python
-i# Suppress prints during import of sub-agents
+# Suppress prints during import of sub-agents
 _silent_buf = io.StringIO()
 with contextlib.redirect_stdout(_silent_buf):
     from exit_advisor import ExitAdvisor
@@ -125,15 +125,87 @@ python Main_5.py
 ## 🛠️ Project Structure
 
 ```plaintext
-GANAI_FINEL_PRO-MASTER/
-│── .venv/
-    |------
-│── vectorstore/
-│── sms/
-│── main.py
-│── requirements.txt
-│── README.md
-│── .env.example
+GANAI_FINEL_PRO-MAASTER/
+├── .idea
+│   ├── .gitignore
+│   ├── .name
+│   ├── GanAi_fin_pro.iml
+│   ├── inspectionProfiles
+│   │   └── profiles_settings.xml
+│   ├── misc.xml
+│   ├── modules.xml
+│   └── vcs.xml
+├── .venv
+│   ├── .gitignore
+│   ├── .streamlit
+│   │   └── secrets.toml
+│   ├── Include
+│   │   └── site
+│   │       └── python3.12
+│   │           └── greenlet
+│   │               └── greenlet.h
+│   ├── Lib
+│   │   └── site-packages
+│   ├── nootbooks
+│   │   ├── .env
+│   │   ├── Main_5.py
+│   │   ├── Python Developer Job Description.pdf
+│   │   ├── Sample_Labeled_Conversations.csv
+│   │   ├── __pycache__
+│   │   │   ├── Main_5.cpython-312.pyc
+│   │   │   ├── exit_advisor.cpython-312.pyc
+│   │   │   ├── info_advisor.cpython-312.pyc
+│   │   │   └── scheduling_advisor.cpython-312.pyc
+│   │   ├── chat_history.json
+│   │   ├── chroma_db
+│   │   │   ├── chroma.sqlite3
+│   │   │   └── ff2a810d-7be4-409e-9591-ecb9f4a2b2b0
+│   │   │       ├── data_level0.bin
+│   │   │       ├── header.bin
+│   │   │       ├── length.bin
+│   │   │       └── link_lists.bin
+│   │   ├── confusion_matrix.png
+│   │   ├── db_Tech.sql
+│   │   ├── evaluate.py
+│   │   ├── exit_advisor.py
+│   │   ├── info_advisor.py
+│   │   ├── scheduling_advisor.py
+│   │   ├── secrets.toml
+│   │   ├── sms_conversations.json
+│   │   └── streamlit_app.py
+│   ├── pyvenv.cfg
+│   ├── secrets.toml
+│   ├── share
+│   │   ├── jupyter
+│   │   │   ├── kernels
+│   │   │   │   └── python3
+│   │   │   │       ├── kernel.json
+│   │   │   │       ├── logo-32x32.png
+│   │   │   │       ├── logo-64x64.png
+│   │   │   │       └── logo-svg.svg
+│   │   │   └── nbextensions
+│   │   │       └── pydeck
+│   │   │           ├── extensionRequires.js
+│   │   │           ├── index.js
+│   │   │           └── index.js.map
+│   │   └── man
+│   │       └── man1
+│   │           ├── ipython.1
+│   │           ├── isympy.1
+│   │           └── ttx.1
+│   └── sms_conversations.json
+├── .vs
+│   └── slnx.sqlite
+├── .vscode
+│   └── settings.json
+├── Python Developer Job Description.pdf
+├── __pycache__
+│   └── info_advisor.cpython-312.pyc
+├── db_Tech.sql
+├── dir
+├── requirements.txt
+├── secrets.toml
+└── sms_conversations.json
 ```
 
 ```
