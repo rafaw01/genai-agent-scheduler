@@ -215,9 +215,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📄 Contact
 
-- Omer Leon - omerleon87@gmail.com
-- Or Eliezer - or1234eli@gmail.com
-- Rafael Wajnsztajn - rafaw01@gmail.com
+- Omer Leon - omerleon87@gmail.com (ID:300810116)
+- Or Eliezer - or1234eli@gmail.com (ID:308239011)
+- Rafael Wajnsztajn - rafaw01@gmail.com (ID:346382591)
 - Project Link: https://github.com/rafaw01/genai-agent-scheduler
 
 ## 📄 Acknowledgements
